@@ -16,9 +16,9 @@ result4=$((a % b + c))
 
 declare -A results
 
-result1=$((a + b * c))
-result2=$((a * b + c * partTimeHour))
-result3=$((c + a / b))
-result4=$((a % b + c))
+results["result1"]=$result1
+results["result2"]=$result2
+results["result3"]=$result3
+results["result4"]=$result4
 
 
