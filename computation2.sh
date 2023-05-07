@@ -22,3 +22,4 @@ results["result3"]=$result3
 results["result4"]=$result4
 
 echo -e "${result1}\n${result2}\n${result3}\n${result4}" | sort -nr
+echo -e "${result1}\n${result2}\n${result3}\n${result4}" | sort -n
